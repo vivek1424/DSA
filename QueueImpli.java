@@ -10,8 +10,9 @@ public class QueueImpli {
         static int rear=-1;
         static int size;
         //for implementing the circular queue 
+         
         static int front=-1;
-    //implementing the code using 
+    //implementing the code using the linked list
         Queue(int n){
             arr=new int[n];
             //size is important for queue, so taking the size thru constructor
